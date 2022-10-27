@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+.row::after {
+  content: "row";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 500px) {
+    .column{
+        width:100%;
+    }
+}
+.head1{
+    text-align: center;
+    font-size: large;
+}
+.text{
+    text-align: center;
+    font-size: large; 
+}
+.head2{
+    text-align: center;
+    font-size: large;
+}
+</style>
+</head>
+<body>
+<div class="head">
+<h1>We help them live in your heart & home forever</h1>
+<p>We understand that the time we have with our pets is short yet wonderful.We know we will lose them one day so we cherish each day we have with them!. That's why we celebrate and honour the impact they have on our lives through art.</p>
+</div>
+<div class="row">
+  <div class="column">
+    <img src="dog-1.jpg" alt="dog" style="width:50%">
+  </div>
+  <div class="column">
+    <img src="dog-2.jpg" alt="dog" style="width:50%">
+  </div>
+  <div class="column">
+    <img src="dog-3.jpg" alt="dog" style="width:50%">
+  </div>
+  <div class="column">
+    <img src="dog-4.jpg" alt="dog" style="width:50%">
+  </div>
+  <div class="column">
+    <img src="dog-5.jpg" alt="dog" style="width:50%">
+  </div>
+</div>
+
+</body>
+</html>
